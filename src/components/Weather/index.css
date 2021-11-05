@@ -1,0 +1,47 @@
+.weather-container {
+  border-radius: 5px;
+  background-color: white;
+  padding: 2vw;
+
+  display: flex;
+  flex-direction: column;
+  margin-top: 5vh;
+  border-radius: 20px;
+  height: 87vh;
+}
+
+.weather-show {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: white;
+  height: 30vh;
+}
+.weather-wrapper {
+  width: 40vw;
+  color: white;
+
+  height: 18vh;
+  background-color: #94ddff;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.temp {
+  width: 50%;
+}
+.hum {
+  width: 50%;
+}
+.value-temp {
+  font-size: 450%;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+.value-hum {
+  font-size: 450%;
+  font-family: 'Roboto';
+  font-weight: 500;
+}

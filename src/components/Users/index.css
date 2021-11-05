@@ -1,0 +1,118 @@
+.users-container {
+  border-radius: 5px;
+  background-color: white;
+
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  margin-top: 5vh;
+  border-radius: 20px;
+  position: relative;
+}
+.search {
+  padding: 10px;
+
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.card-view {
+  display: flex;
+}
+.list-view {
+  width: 100%;
+}
+.search-label {
+  text-align-last: left;
+}
+.search-button {
+  width: 6%;
+}
+.search-bar-wrapper {
+  display: flex;
+  flex-direction: row;
+  margin-top: 15px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 10%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {
+  margin: 0 -5px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 800px) {
+  .column {
+    width: 25%;
+    display: flex;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 15px;
+  text-align: center;
+  background-color: #f1f1f1;
+  display: flex;
+  flex-direction: row;
+  font-size: x-small;
+  width: 10vw;
+  flex-wrap: wrap;
+  margin-left: -45px;
+}
+.card:hover {
+  background-color: #94ddff;
+  padding: 20px;
+}
+.card-info {
+  display: flex;
+  align-content: left;
+}
+.card-view-label {
+  text-align-last: left;
+  font-size: 15px;
+  padding: 10px;
+  color: #808080;
+}
+.list-view-row {
+  text-align: left;
+  display: flex;
+  align-items: center;
+  background-color: #fbfbfb;
+  border: 0.001px solid #ebebeb;
+  border-radius: 5px;
+}
+.list-view-row:hover {
+  background-color: white;
+  border: none;
+}
+img.list-icon {
+  size: 10%;
+}
+.column {
+  margin-left: 50px;
+  justify-content: left;
+}
