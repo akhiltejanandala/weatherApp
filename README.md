@@ -1,163 +1,58 @@
-In this project, let's build a **Navbar with Context** by applying the concepts we have learned till now.
 
-### Refer to the image below:
+Getting Started with Create React App
+This project was bootstrapped with Create React App.
 
-<br/>
-<div style="text-align: center;">
-    <img src="https://assets.ccbp.in/frontend/content/react-js/navbar-with-context-output.gif" alt="navbar with context output" style="max-width:70%;box-shadow:0 2.8px 2.2px rgba(0, 0, 0, 0.12)">
-</div>
-<br/>
+Available Scripts
+In the project directory, you can run:
 
-### Design Files
+npm start
+Runs the app in the development mode.
+Open http://localhost:3000 to view it in the browser.
 
-<details>
-<summary>Click to view</summary>
+The page will reload if you make edits.
+You will also see any lint errors in the console.
 
-- [Extra Small (Size < 576px) and Small (Size >= 576px) - Home](https://assets.ccbp.in/frontend/content/react-js/navbar-with-context-home-sm-outputs.png)
-- [Extra Small (Size < 576px) and Small (Size >= 576px) - About](https://assets.ccbp.in/frontend/content/react-js/navbar-with-context-about-sm-outputs.png)
-- [Extra Small (Size < 576px) and Small (Size >= 576px) - Not Found](https://assets.ccbp.in/frontend/content/react-js/navbar-with-context-not-found-sm-outputs.png)
-- [Medium (Size >= 768px), Large (Size >= 992px) and Extra Large (Size >= 1200px) - Home Light Theme](https://assets.ccbp.in/frontend/content/react-js/navbar-with-context-home-light-theme-lg-output.png)
-- [Medium (Size >= 768px), Large (Size >= 992px) and Extra Large (Size >= 1200px) - Home Dark Theme](https://assets.ccbp.in/frontend/content/react-js/navbar-with-context-home-dark-theme-lg-output.png)
-- [Medium (Size >= 768px), Large (Size >= 992px) and Extra Large (Size >= 1200px) - About Light Theme](https://assets.ccbp.in/frontend/content/react-js/navbar-with-context-about-light-theme-lg-output.png)
-- [Medium (Size >= 768px), Large (Size >= 992px) and Extra Large (Size >= 1200px) - About Dark Theme](https://assets.ccbp.in/frontend/content/react-js/navbar-with-context-about-dark-theme-lg-output.png)
-- [Medium (Size >= 768px), Large (Size >= 992px) and Extra Large (Size >= 1200px) - Not Found Light Theme](https://assets.ccbp.in/frontend/content/react-js/navbar-with-context-not-found-light-theme-lg-output.png)
-- [Medium (Size >= 768px), Large (Size >= 992px) and Extra Large (Size >= 1200px) - Not Found Dark Theme](https://assets.ccbp.in/frontend/content/react-js/navbar-with-context-not-found-dark-theme-lg-output.png)
+npm test
+Launches the test runner in the interactive watch mode.
+See the section about running tests for more information.
 
-</details>
+npm run build
+Builds the app for production to the build folder.
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-### Set Up Instructions
+The build is minified and the filenames include the hashes.
+Your app is ready to be deployed!
 
-<details>
-<summary>Click to view</summary>
+See the section about deployment for more information.
 
-- Download dependencies by running `npm install`
-- Start up the app using `npm start`
-</details>
+npm run eject
+Note: this is a one-way operation. Once you eject, you can’t go back!
 
-### Completion Instructions
+If you aren’t satisfied with the build tool and configuration choices, you can eject at any time. This command will remove the single build dependency from your project.
 
-<details>
-<summary>Functionality to be added</summary>
-<br/>
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except eject will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-The app must have the following functionalities
+You don’t have to ever use eject. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-- Initially, the app should consists of light theme
-- When the dark theme image is clicked in the respective route
-  - The dark theme image should be changed to light theme image
-  - The app should be changed to dark mode
-- when the light theme image is clicked in the Respective route
-  - The light theme image should be changed to dark theme image
-  - The app should be changed to light mode
-- The Theme Context has an object as a value with the following properties
-  - `isDarkTheme` - this key is used to change the theme
-  - `toggleTheme` - this method is used to update the value of the `isDarkTheme`
-- When an undefined path is provided in the URL then the page should navigate to the NotFound Route
+Learn More
+You can learn more in the Create React App documentation.
 
-</details>
+To learn React, check out the React documentation.
 
-<details>
-<summary>Components Structure</summary>
+Code Splitting
+This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
 
-<br/>
-<div style="text-align: center;">
-    <img src="https://assets.ccbp.in/frontend/content/react-js/navbar-with-context-component-structure-breakdown-home.png" alt="component structure breakdown Home" style="max-width:100%;box-shadow:0 2.8px 2.2px rgba(0, 0, 0, 0.12)">
-</div>
-<br/>
-<div style="text-align: center;">
-    <img src="https://assets.ccbp.in/frontend/content/react-js/navbar-with-context-component-structure-breakdown-about.png" alt="component structure breakdown About" style="max-width:100%;box-shadow:0 2.8px 2.2px rgba(0, 0, 0, 0.12)">
-</div>
-<br/>
+Analyzing the Bundle Size
+This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
 
-</details>
+Making a Progressive Web App
+This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
 
-<details>
-<summary>Implementation Files</summary>
-<br/>
+Advanced Configuration
+This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
 
-Use these files to complete the implementation:
+Deployment
+This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
 
-- `src/App.js`
-- `src/components/Home/index.js`
-- `src/components/Home/index.css`
-- `src/components/About/index.js`
-- `src/components/About/index.css`
-- `src/components/Navbar/index.js`
-- `src/components/Navbar/index.css`
-- `src/components/NotFound/index.css`
-- `src/components/NotFound/index.js`
-
-</details>
-
-### Important Note
-
-<details>
-<summary>Click to view</summary>
-
-<br/>
-
-**The following instructions are required for the tests to pass**
-
-- The **Home** image for light theme and dark theme should have the alt attribute value as `home`
-- The **About** image for light theme and dark theme should have the alt attribute value as `about`
-- The **Website Logo** image for light theme and dark theme should have the alt attribute value as `website logo`
-- The **Theme** image for light theme and dark theme should have the alt attribute value as `theme`
-- The Theme button should have the testid as `theme`
-
-</details>
-
-### Resources
-
-<details>
-<summary>Image URLs</summary>
-
-- [https://assets.ccbp.in/frontend/react-js/home-light-img.png](https://assets.ccbp.in/frontend/react-js/home-light-img.png)
-
-- [https://assets.ccbp.in/frontend/react-js/home-dark-img.png](https://assets.ccbp.in/frontend/react-js/home-dark-img.png)
-
-- [https://assets.ccbp.in/frontend/react-js/about-light-img.png](https://assets.ccbp.in/frontend/react-js/about-light-img.png)
-
-- [https://assets.ccbp.in/frontend/react-js/about-dark-img.png](https://assets.ccbp.in/frontend/react-js/about-dark-img.png)
-
-- [https://assets.ccbp.in/frontend/react-js/website-logo-light-theme-img.png](https://assets.ccbp.in/frontend/react-js/website-logo-light-theme-img.png)
-
-- [https://assets.ccbp.in/frontend/react-js/website-logo-dark-theme-img.png](https://assets.ccbp.in/frontend/react-js/website-logo-dark-theme-img.png)
-
-- [https://assets.ccbp.in/frontend/react-js/light-theme-img.png](https://assets.ccbp.in/frontend/react-js/light-theme-img.png)
-
-- [https://assets.ccbp.in/frontend/react-js/dark-theme-img.png](https://assets.ccbp.in/frontend/react-js/dark-theme-img.png)
-
-- [https://assets.ccbp.in/frontend/react-js/not-found-img.png](https://assets.ccbp.in/frontend/react-js/not-found-img.png) alt should be **not found**
-
-</details>
-
-<details>
-<summary>Colors</summary>
-
-<br/>
-
-<div style="background-color: #000000; width: 150px; padding: 10px; color: white">Hex: #000000</div>
-<div style="background-color: #ffffff; width: 150px; padding: 10px; color: black">Hex: #ffffff</div>
-<div style="background-color: #1e293b; width: 150px; padding: 10px; color: white">Hex: #1e293b</div>
-<div style="background-color: #333333; width: 150px; padding: 10px; color: white">Hex: #333333</div>
-<div style="background-color: #dcdcdc; width: 150px; padding: 10px; color: black">Hex: #dcdcdc</div>
-<div style="background-color: #171f46; width: 150px; padding: 10px; color: white">Hex: #171f46</div>
-<div style="background-color: #334155; width: 150px; padding: 10px; color: white">Hex: #334155</div>
-<div style="background-color: #64748b; width: 150px; padding: 10px; color: white">Hex: #64748b</div>
-<div style="background-color: #f8fafc; width: 150px; padding: 10px; color: black">Hex: #f8fafc</div>
-
-</details>
-
-<details>
-<summary>Font-families</summary>
-
-- Roboto
-
-</details>
-
-> ### _Things to Keep in Mind_
->
-> - All components you implement should go in the `src/components` directory.
-> - Don't change the component folder names as those are the files being imported into the tests.
-> - **Do not remove the pre-filled code**
-> - Want to quickly review some of the concepts you’ve been learning? Take a look at the Cheat Sheets.
+npm run build fails to minify
+This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
